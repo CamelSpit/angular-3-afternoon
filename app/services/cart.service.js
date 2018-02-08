@@ -3,6 +3,7 @@ angular.module('swagShop').service('cartSrvc', function() {
 
   this.add = function( item ) {
     cart.push( item );
+    console.log("adding item")
     return cart;
   };
 
